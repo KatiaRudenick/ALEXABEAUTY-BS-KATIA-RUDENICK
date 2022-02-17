@@ -1,0 +1,112 @@
+*{      margin: 0px;
+    padding: 0px;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Athiti:wght@200&family=Pacifico&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Athiti:wght@200&family=PT+Sans+Narrow&family=Pacifico&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Athiti:wght@200&family=PT+Sans+Narrow&family=Pacifico&family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Athiti:wght@200&family=Cedarville+Cursive&family=PT+Sans+Narrow&family=Pacifico&family=Rajdhani:wght@300&display=swap');
+
+.color1{
+    background-color: pink;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    }
+    
+    
+    ul{
+    display: flex;
+    }
+    
+    li{
+    list-style: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    }
+    
+    nav a:hover{
+    color: #000
+    }
+
+.text-end{
+    font-family: 'Cedarville Cursive', cursive;
+    color: white;
+
+}
+body{
+    background-color: white;
+}
+
+.hero {
+    background-image: url(/Imagenes/GIGI\ FONDO.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+    h2{
+        font-size: 40px;
+        color: white;
+        font-family: 'Abel', sans-serif
+
+        ;
+    }
+.titulo{
+    display: flex;
+        flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.new{
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: space-around;
+justify-content: center;
+padding: 5%;
+margin-right: 2%;
+    }
+
+.form-group{
+    
+        color: white;
+        font-size: 20px;
+      
+}
+
+.text-center{
+    background-color: pink;
+}
+
+.enviar{
+    font-size: 20px;
+    color: palevioletred;
+  }
+
+.newsletter{
+text-align: left;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 28px;
+color: white;
+          }
+
+.redes{
+display: flex;
+justify-content: right;
+            }
+
+.lead{
+    color: palevioletred;
+    font-size: 25px;
+}
+
+.form{
+    margin: 5%;
+}
